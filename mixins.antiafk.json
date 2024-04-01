@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.onefightonewin.mixin",
+  "refmap": "mixins.antiafk.refmap.json",
+  "client": [
+    "MixinBlock",
+    "MixinEntity",
+    "MixinPlayerController",
+   	"MixinEntityRenderer",
+   	"MixinGuiPlayerTabOverlay",
+   	"MixinNetworkManager",
+   	"MixinGuiNewChat",
+   	"MixinEntityPlayerSP",
+   	"MixinMinecraft",
+   	"MixinRenderManager",
+   	"MixinBlockLiquid",
+   	"MixinRenderGlobal",
+   	"MixinGuiIngame",
+   	"MixinRendererLivingEntity"
+  ]
+}
